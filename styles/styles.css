@@ -92,12 +92,108 @@ main {
 }
 
 .video_container {
-    background-color: blue;
+    background-color: white;
     height: 1200px;
     float: left; 
     width: 60%;
     margin-right: 10px;
 }
+
+iframe { 
+    float:right; 
+    margin-top: 20px; 
+    width: 640px; 
+    height: 360px; 
+}
+
+/* clear right allows it to consider the video as a block, booping it down! then i can float it :) */ 
+.name_view_icons {
+    width: 640px; 
+    height: 110px; 
+    clear:right; 
+    float:right; 
+    border-bottom: solid 1px grey; 
+    padding-bottom: 0; 
+}
+
+#video_name { 
+    font-size: 22px; 
+    font-weight: bold; 
+    font-family: "Calibri";  
+}
+
+.view_icons { 
+    position:relative; 
+    bottom: 50px; 
+}
+
+.name_view_icons .fa { 
+    float:right; 
+    position: relative; 
+    bottom: 30px;
+}
+
+#views { 
+    color: grey; 
+    font-size: 18px; 
+    font-family: "Calibri"; 
+}
+
+.fa { 
+    margin-right: 15px;
+}
+
+.acct_summary { 
+    width: 640px; 
+    float:right;  
+    border-bottom: grey 1px solid; 
+}
+
+#acct { 
+    float:left; 
+    font-size: 42px; 
+}
+
+#date { 
+    color: grey; 
+    font-size: 12px;
+    font-family: "Calibri"; 
+    position: relative; 
+    bottom: 10px; 
+}
+
+.pub { 
+    font-weight: bold; 
+}
+
+#subscribe { 
+    background-color:red; 
+    float:right; 
+    position:relative; 
+    bottom: 50px; 
+    margin-right: 10px; 
+    height: 40px; 
+    width: 150px;
+    font-family: "Calibri"; 
+    font-weight: bold; 
+    color: white; 
+    font-size: 18px;
+}
+
+#sum { 
+    margin-left: 40px; 
+    margin-right: 30px; 
+}
+
+
+#show_more { 
+    color: grey; 
+    font-family: "Calibri"; 
+    font-size: 15px; 
+    margin-left: 35px; 
+}
+
+
 
 
 /* right side of main body - the thumbnail reccomendations */
