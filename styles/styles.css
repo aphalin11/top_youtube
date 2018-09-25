@@ -95,7 +95,6 @@ main {
 }
 
 .video_container {
-    background-color: yellowgreen;
     height: 1200px;
     float: left; 
     width: 60%;
@@ -207,6 +206,9 @@ iframe {
 
 #sort { 
     font-size: 20px; 
+    position: relative; 
+    bottom: 63px;
+    margin-right: 400px; 
 }
 
 
