@@ -1,7 +1,10 @@
+/* NOTES: Clear allows you to take the elements to the right and treat them as blocks that the elements on the left column have to go under! */
+
 /* whole body */ 
 
 html {
     box-sizing: border-box; 
+    font-family: "Calibri"; 
 }
 
 body {
@@ -92,7 +95,7 @@ main {
 }
 
 .video_container {
-    background-color: white;
+    background-color: yellowgreen;
     height: 1200px;
     float: left; 
     width: 60%;
@@ -174,7 +177,7 @@ iframe {
     margin-right: 10px; 
     height: 40px; 
     width: 150px;
-    font-family: "Calibri"; 
+    font-family: "Calibri";
     font-weight: bold; 
     color: white; 
     font-size: 18px;
@@ -187,11 +190,26 @@ iframe {
 
 
 #show_more { 
-    color: grey; 
-    font-family: "Calibri"; 
+    color: grey;  
     font-size: 15px; 
     margin-left: 35px; 
 }
+
+.comm_nav { 
+    float: right; 
+    clear: right; 
+}
+
+#comm_count { 
+    font-size: 20px; 
+    margin-right: 50%; 
+}
+
+#sort { 
+    font-size: 20px; 
+}
+
+
 
 
 
@@ -199,9 +217,71 @@ iframe {
 /* right side of main body - the thumbnail reccomendations */
 
 .video_rec_container { 
-    background-color: green; 
     height:1200px;
     float:right; 
     width: 39%; 
     margin-left: 0;
 }
+
+#up_nxt { 
+    margin-left: 15px; 
+    font-size: 20px; 
+    color: black; 
+    font-family: "Calibri"; 
+}
+
+.up_nxt_contain { 
+    border-bottom: solid 1px grey; 
+    height: 160px;
+}
+
+.thumb_nail { 
+    margin-left: 15px; 
+    float:left; 
+    clear:left;  
+}
+
+.title { 
+    font-weight: bold; 
+    font-size: 18px; 
+    position: relative; 
+    left: 15px;  
+    margin-bottom: 0; 
+}
+
+.subtitle { 
+    font-size: 15px; 
+    color: grey; 
+    position: relative; 
+    left: 15px;
+    margin-top: 0; 
+}
+
+.main_rec_contain { 
+    margin-top: 20px;
+}
+
+.main_rec { 
+    position:relative; 
+    margin-bottom: 0; 
+    margin-top: 0; 
+    padding-bottom: 0; 
+}
+
+.rec_vid {  
+    height:120px;
+}
+
+mark { 
+    background-color: whitesmoke; 
+    font-size: 12px;
+}
+
+#more { 
+    color: grey; 
+    margin-left: 48%; 
+    margin-top: 0; 
+    font-size: 18px;
+}
+
+
